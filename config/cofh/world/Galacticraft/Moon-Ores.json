@@ -214,7 +214,7 @@
             {"name": "GalacticraftCore:tile.moonBlock", "metadata": 4}
         ],
         "clusterSize": 9,
-        "numClusters": 1,
+        "numClusters": 2,
         "minHeight": 1,
         "maxHeight": 16,
         "retrogen": "false",
