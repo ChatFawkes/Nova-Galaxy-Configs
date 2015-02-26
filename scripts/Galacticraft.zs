@@ -59,7 +59,7 @@ mods.railcraft.Rolling.addShaped(deshplate, [[desh, desh]]);                    
 mods.railcraft.Rolling.addShaped(titaniumplate, [[titanium, titanium]]);                                        # Compressed Titanium
 mods.railcraft.Rolling.addShaped(tier1plate, [[steelplate, aluminumplate, bronzeplate],
  [steelplate, aluminumplate, bronzeplate]]);                                                                    # Heavy-Duty Plate Tier 1
-mods.railcraft.Rolling.addShaped(tier2plate, [[tier1plate, metironplate, metironplate]]);                       # Heavy-Duty Plate Tier 2
+mods.railcraft.Rolling.addShaped(tier2plate, [[tier1plate, metironplate, lunariumplate]]);                      # Heavy-Duty Plate Tier 2
 mods.railcraft.Rolling.addShaped(tier3plate, [[tier2plate, deshplate, deshplate]]);                             # Heavy-Duty Plate Tier 3
 
 # Add shapeless Railcraft Plates -> Compressed Metals (Cheaper than original amount)
