@@ -16,36 +16,36 @@ val lunariumplate = <InterstellarOres:materialLunarium:1>;
 
 # Make recipe for Calculation (Pure Certus) Press
 recipes.addShaped(calcpress,
- [[metironplate, lunariumplate, metironplate],
-  [lunariumplate, purecertus, lunariumplate],
-  [metironplate, lunariumplate, metironplate]]);
+ [[metironplate, deshplate, metironplate],
+  [deshplate, purecertus, deshplate],
+  [metironplate, deshplate, metironplate]]);
 calcpress.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
 calcpress.addShiftTooltip(format.darkPurple("Requires materials"));
-calcpress.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));
+calcpress.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
   
 # Make recipe for Engineering (Diamond) Press
 recipes.addShaped(engpress,
- [[metironplate, lunariumplate, metironplate],
-  [lunariumplate, diamond, lunariumplate],
-  [metironplate, lunariumplate, metironplate]]);
+ [[metironplate, deshplate, metironplate],
+  [deshplate, diamond, deshplate],
+  [metironplate, deshplate, metironplate]]);
 engpress.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
 engpress.addShiftTooltip(format.darkPurple("Requires materials"));
-engpress.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));
+engpress.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
   
 # Make recipe for Logic (Gold) Press
 recipes.addShaped(logipress,
- [[metironplate, lunariumplate, metironplate],
-  [lunariumplate, gold, lunariumplate],
-  [metironplate, lunariumplate, metironplate]]);
+ [[metironplate, deshplate, metironplate],
+  [deshplate, gold, deshplate],
+  [metironplate, deshplate, metironplate]]);
 logipress.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
 logipress.addShiftTooltip(format.darkPurple("Requires materials"));
-logipress.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));  
+logipress.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars")); 
 
 # Make recipe for Silicon Press
 recipes.addShaped(silipress,
-  [[metironplate, lunariumplate, metironplate],
-  [lunariumplate, silicon, lunariumplate],
-  [metironplate, lunariumplate, metironplate]]);
+  [[metironplate, deshplate, metironplate],
+  [deshplate, silicon, deshplate],
+  [metironplate, deshplate, metironplate]]);
 silipress.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
 silipress.addShiftTooltip(format.darkPurple("Requires materials"));
-silipress.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));  
+silipress.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
