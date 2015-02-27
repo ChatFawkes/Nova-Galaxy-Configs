@@ -49,13 +49,3 @@ recipes.addShaped(silipress,
 silipress.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
 silipress.addShiftTooltip(format.darkPurple("Requires materials"));
 silipress.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));  
-  
-# Change recipe for ME Controller (uses Desh from Mars)
-recipes.remove(mecontroller);
-recipes.addShaped(mecontroller,
- [[skystone, purefluix, skystone],
-  [purefluix, deshplate, purefluix],
-  [skystone, purefluix, skystone]]);
-mecontroller.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
-mecontroller.addShiftTooltip(format.darkPurple("Requires materials"));
-mecontroller.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
