@@ -8,7 +8,6 @@ val purecertus = <appliedenergistics2:item.ItemMultiMaterial:10>;
 val gold = <ore:ingotGold>;
 val diamond = <minecraft:diamond>;
 val silicon = <ore:itemSilicon>;
-val mecontroller = <appliedenergistics2:tile.BlockController>;
 val skystone = <appliedenergistics2:tile.BlockSkyStone:1>;
 val purefluix = <appliedenergistics2:item.ItemMultiMaterial:12>;
 val deshplate = <GalacticraftMars:item.null:5>;
