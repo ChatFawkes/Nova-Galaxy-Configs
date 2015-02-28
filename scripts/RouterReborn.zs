@@ -10,5 +10,5 @@ recipes.addShaped(router,
   [enderium, fluxcrystal, enderium],
   [enderium, enderium, enderium]]);
 router.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
-router.addShiftTooltip(format.darkPurple("Requires ") + format.yellow("Vibrant Alloy"));
+router.addShiftTooltip(format.darkPurple("Requires ") + format.yellow("Fluxed Crystal"));
 router.addShiftTooltip(format.darkPurple("and ") + format.yellow("Enderium"));
