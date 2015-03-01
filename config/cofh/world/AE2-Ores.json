@@ -23,6 +23,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
             -28,
             -29,

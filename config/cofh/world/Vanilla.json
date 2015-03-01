@@ -39,6 +39,26 @@
             -30
         ]
     },
+    "clay": {
+        "template": "uniform",
+        "block": "clay",
+        "material": "stone",
+        "clusterSize": 10,
+        "numClusters": 8,
+        "minHeight": 20,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            1,
+            -1,
+            -28,
+            -29,
+            -30
+        ]
+    },
     "coal": {
         "template": "uniform",
         "block": "coal_ore",
@@ -53,25 +73,8 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
-            -28,
-            -29,
-            -30
-        ]
-    },
-    "clay": {
-        "template": "uniform",
-        "block": "clay",
-        "material": "stone",
-        "clusterSize": 10,
-        "numClusters": 8,
-        "minHeight": 20,
-        "maxHeight": 128,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
             -28,
             -29,
             -30
@@ -91,6 +94,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
             -28,
             -29,
@@ -111,6 +115,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
             -28,
             -29,
@@ -131,6 +136,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
             -28,
             -29,
@@ -151,6 +157,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
             -28,
             -29,
@@ -171,6 +178,7 @@
         "dimensionRestriction": "blacklist",
         "dimensions": [
             1,
+            0,
             -1,
             -28,
             -29,
