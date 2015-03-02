@@ -1,0 +1,24 @@
+{
+    "overworld-yellorite": {
+        "template": "uniform",
+        "block": {
+            "name": "BigReactors:YelloriteOre",
+            "metadata": 0
+        },
+        "clusterSize": 4,
+        "numClusters": 3,
+        "maxHeight": 40,
+        "minHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Badlands"},
+            {"type": "name", "entry": "Tainted Land"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}
