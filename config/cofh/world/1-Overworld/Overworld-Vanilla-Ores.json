@@ -75,8 +75,8 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "DESERT"},
-            {"type": "name", "entry": "Mesa"}
+            {"type": "name", "entry": "Mesa"},
+            {"type": "dictionary", "entry": ["DRY", "SANDY"]}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
