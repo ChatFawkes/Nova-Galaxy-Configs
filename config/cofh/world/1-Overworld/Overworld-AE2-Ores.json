@@ -21,8 +21,7 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "PLAINS"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "PLAINS"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [

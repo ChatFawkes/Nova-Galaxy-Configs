@@ -12,8 +12,7 @@
         "biomes": [
             {"type": "name", "entry": "Oasis"},
             {"type": "dictionary", "entry": "MOUNTAIN"},
-            {"type": "dictionary", "entry": "HILLS"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "HILLS"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -32,8 +31,7 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "MOUNTAIN"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -57,8 +55,7 @@
             {"type": "name", "entry": "Mesa Plateau F"},
             {"type": "name", "entry": "Mesa Plateau F M"},
             {"type": "name", "entry": "Mesa Plateau M"},
-            {"type": "name", "entry": "Valley"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "name", "entry": "Valley"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [

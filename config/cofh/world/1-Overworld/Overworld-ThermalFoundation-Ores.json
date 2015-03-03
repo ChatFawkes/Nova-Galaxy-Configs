@@ -13,8 +13,7 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "FOREST"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -35,8 +34,7 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "FOREST"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -66,8 +64,7 @@
         "biomes": [
             {"type": "name", "entry": "Oasis"},
             {"type": "dictionary", "entry": "JUNGLE"},
-            {"type": "dictionary", "entry": "SAVANNA"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "SAVANNA"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -97,8 +94,7 @@
         "biomes": [
             {"type": "name", "entry": "Oasis"},
             {"type": "dictionary", "entry": "JUNGLE"},
-            {"type": "dictionary", "entry": "SAVANNA"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "SAVANNA"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -127,8 +123,7 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "MOUNTAIN"},
-            {"type": "dictionary", "entry": "MAGICAL", "whitelist": "false"}
+            {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
