@@ -1,10 +1,8 @@
+#ONLY MODIFY THIS CONFIG IF YOU DO NOT WANT TO USE MINETWEAKER, IF YOU WANT TO MODIFY MUTATIONS USE MINETWEAKER, THIS CONFIG IS ONLY FOR PEOPLE WHO DON'T USE MINETWEAKER
 #Define mutations here: <mutation>=<parent1>+<parent2>
 #To specify a crop, write <mod>:<cropname>:<meta>, all in lowercase (meta is optional)
 #You can get these values from NEI (example: minecraft:wheat_seeds is the vanilla seeds)
-#Optionally you can also define a mutation like this: <mutation>=<parent1>+<parent2>,<id>,<block>
-#The crops are specified in the same way, the id must be an integer: 1 requires a specified block to be below the farmland and 2 requires a specific block nearby
-#The mutation will not occur if these requirements are not met. For example:
-#magicalcrops:magicalcrops_ModMagicSeedsLead=magicalcrops:magicalcrops_ModMagicSeedsCopper+magicalcrops:magicalcrops_ModMagicSeedsTin,1,ThermalFoundation:Ore:3
+
 AgriCraft:seedSugarcane=minecraft:wheat_seeds+AgriCraft:seedCarrot
 AgriCraft:seedCactus=AgriCraft:seedSugarcane+AgriCraft:seedPoppy
 minecraft:pumpkin_seeds=AgriCraft:seedPotato+AgriCraft:seedCarrot
