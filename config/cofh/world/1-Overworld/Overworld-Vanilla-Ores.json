@@ -11,26 +11,47 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "MOUNTAIN"},
-            {"type": "dictionary", "entry": "HILLS"}
+            {"type": "dictionary", "entry": "HILLS"},
+            {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
             0
         ]
     },
-    "overworld-iron": {
+    "overworld-iron-low": {
         "template": "uniform",
         "block": "iron_ore",
         "material": "minecraft:stone",
         "clusterSize": 10,
         "numClusters": 16,
-        "maxHeight": 256,
-        "minHeight": 48,
+        "maxHeight": 102,
+        "minHeight": 64,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "dictionary", "entry": "HILLS"},
+            {"type": "dictionary", "entry": "MOUNTAIN"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-iron-high": {
+        "template": "uniform",
+        "block": "iron_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 10,
+        "numClusters": 10,
+        "maxHeight": 256,
+        "minHeight": 102,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Oasis"},
+            {"type": "dictionary", "entry": "HILLS"},
             {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "whitelist",
@@ -45,17 +66,11 @@
         "clusterSize": 7,
         "numClusters": 5,
         "maxHeight": 64,
-        "minHeight": 48,
+        "minHeight": 52,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Mesa"},
-            {"type": "name", "entry": "Mesa Plateau"},
-            {"type": "name", "entry": "Mesa Plateau F"},
-            {"type": "name", "entry": "Mesa Plateau F M"},
-            {"type": "name", "entry": "Mesa Plateau M"},
-            {"type": "name", "entry": "Valley"}
+            {"type": "name", "entry": "SANDY"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -88,12 +103,13 @@
         "material": "minecraft:stone",
         "clusterSize": 3,
         "numClusters": 2,
-        "maxHeight": 90,
+        "maxHeight": 88,
         "minHeight": 80,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "dictionary", "entry": "HILLS"},
             {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "whitelist",
