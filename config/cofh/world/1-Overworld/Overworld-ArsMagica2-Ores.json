@@ -1,0 +1,68 @@
+{
+    "overworld-vinteum": {
+        "template": "uniform",
+        "block": {
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 0
+        },
+        "clusterSize": 7,
+        "numClusters": 6,
+        "maxHeight": 30,
+        "minHeight": 20,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "dictionary", "entry": "MAGICAL"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-chimerite": {
+        "template": "uniform",
+        "block": {
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 1
+        },
+        "clusterSize": 7,
+        "numClusters": 6,
+        "maxHeight": 20,
+        "minHeight": 10,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "dictionary", "entry": "MAGICAL"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    },
+    "overworld-bluetopaz": {
+        "template": "uniform",
+        "block": {
+            "name": "arsmagica2:vinteumOre",
+            "metadata": 2
+        },
+        "clusterSize": 7,
+        "numClusters": 6,
+        "maxHeight": 10,
+        "minHeight": 0,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "dictionary", "entry": "MAGICAL"}
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            0
+        ]
+    }
+}
