@@ -6,14 +6,15 @@
             "metadata": 0
         },
         "clusterSize": 7,
-        "numClusters": 6,
+        "numClusters": 7,
         "maxHeight": 30,
         "minHeight": 20,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "name", "entry": "Autumn Forest"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -28,14 +29,15 @@
             "metadata": 1
         },
         "clusterSize": 7,
-        "numClusters": 6,
+        "numClusters": 7,
         "maxHeight": 20,
         "minHeight": 10,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "name", "entry": "Autumn Forest"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -50,14 +52,15 @@
             "metadata": 2
         },
         "clusterSize": 7,
-        "numClusters": 6,
+        "numClusters": 7,
         "maxHeight": 10,
         "minHeight": 0,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Deep Ocean"},
+            {"type": "name", "entry": "Autumn Forest"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",

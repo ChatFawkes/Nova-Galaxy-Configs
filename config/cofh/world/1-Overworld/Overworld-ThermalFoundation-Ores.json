@@ -13,7 +13,8 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"}
+            {"type": "dictionary", "entry": "FOREST"},
+            {"type": "dictionary", "entry": "JUNGLE"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -28,13 +29,14 @@
         },
         "clusterSize": 5,
         "numClusters": 3,
-        "maxHeight": 40,
-        "minHeight": 30,
+        "maxHeight": 45,
+        "minHeight": 35,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"}
+            {"type": "dictionary", "entry": "FOREST"},
+            {"type": "dictionary", "entry": "JUNGLE"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -57,14 +59,14 @@
         ],
         "clusterSize": 6,
         "numClusters": 3,
-        "maxHeight": 55,
-        "minHeight": 45,
+        "maxHeight": 35,
+        "minHeight": 25,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "JUNGLE"},
-            {"type": "dictionary", "entry": "SAVANNA"}
+            {"type": "dictionary", "entry": "FOREST"},
+            {"type": "dictionary", "entry": "JUNGLE"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -87,14 +89,14 @@
         ],
         "clusterSize": 6,
         "numClusters": 3,
-        "maxHeight": 40,
-        "minHeight": 30,
+        "maxHeight": 25,
+        "minHeight": 15,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "JUNGLE"},
-            {"type": "dictionary", "entry": "SAVANNA"}
+            {"type": "dictionary", "entry": "FOREST"},
+            {"type": "dictionary", "entry": "JUNGLE"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -118,11 +120,12 @@
         "clusterSize": 8,
         "numClusters": 3,
         "maxHeight": 80,
-        "minHeight": 64,
+        "minHeight": 70,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "dictionary", "entry": "HILLS"},
             {"type": "dictionary", "entry": "MOUNTAIN"}
         ],
         "dimensionRestriction": "whitelist",

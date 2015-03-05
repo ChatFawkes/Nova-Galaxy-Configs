@@ -13,7 +13,8 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "PLAINS"}
+            {"type": "dictionary", "entry": "PLAINS"},
+            {"type": "dictionary", "entry": "SANDY"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [

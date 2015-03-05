@@ -14,6 +14,8 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -36,6 +38,8 @@
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -52,12 +56,14 @@
         "material": "stone",
         "clusterSize": 4,
         "numClusters": 8,
-        "maxHeight": 64,
+        "maxHeight": 60,
         "minHeight": 50,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -74,12 +80,14 @@
         "material": "stone",
         "clusterSize": 6,
         "numClusters": 8,
-        "maxHeight": 60,
-        "minHeight": 50,
+        "maxHeight": 50,
+        "minHeight": 40,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -96,12 +104,14 @@
         "material": "stone",
         "clusterSize": 4,
         "numClusters": 8,
-        "maxHeight": 50,
-        "minHeight": 40,
+        "maxHeight": 40,
+        "minHeight": 30,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -118,12 +128,14 @@
         "material": "stone",
         "clusterSize": 4,
         "numClusters": 8,
-        "maxHeight": 40,
-        "minHeight": 30,
+        "maxHeight": 30,
+        "minHeight": 20,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -140,12 +152,14 @@
         "material": "stone",
         "clusterSize": 4,
         "numClusters": 8,
-        "maxHeight": 30,
-        "minHeight": 20,
+        "maxHeight": 20,
+        "minHeight": 10,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -162,12 +176,14 @@
         "material": "stone",
         "clusterSize": 4,
         "numClusters": 8,
-        "maxHeight": 20,
-        "minHeight": 10,
+        "maxHeight": 10,
+        "minHeight": 0,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
             {"type": "name", "entry": "Oasis"},
+            {"type": "name", "entry": "Meadow"},
+            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
