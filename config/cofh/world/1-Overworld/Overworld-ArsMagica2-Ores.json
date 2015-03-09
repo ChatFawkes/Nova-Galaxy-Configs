@@ -12,9 +12,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Autumn Forest"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -35,9 +32,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Autumn Forest"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -58,9 +52,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Autumn Forest"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",

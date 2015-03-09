@@ -13,9 +13,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -37,9 +34,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -61,9 +55,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -85,9 +76,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -109,9 +97,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -133,9 +118,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -157,9 +139,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
@@ -181,9 +160,6 @@
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Meadow"},
-            {"type": "name", "entry": "Tropics"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",

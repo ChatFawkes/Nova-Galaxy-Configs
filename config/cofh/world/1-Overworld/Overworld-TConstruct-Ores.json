@@ -1,20 +1,19 @@
 {
     "overworld-aluminum": {
         "template": "uniform",
-        "block": {
-            "name": "TConstruct:SearedBrick",
-            "metadata": 5
-        },
+        "block": [
+            {"name": "TConstruct:SearedBrick", "metadata": 5}
+        ],
         "clusterSize": 4,
         "numClusters": 4,
+        "chunkChance": 2,
         "maxHeight": 55,
         "minHeight": 45,
         "retrogen": "false",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "PLAINS"},
-            {"type": "dictionary", "entry": "SANDY"}
+            {"type": "dictionary", "entry": "OCEAN"},
+            {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [

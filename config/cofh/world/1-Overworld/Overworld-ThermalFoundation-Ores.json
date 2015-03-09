@@ -1,20 +1,19 @@
 {
     "overworld-copper": {
         "template": "uniform",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 0
-        },
-        "clusterSize": 5,
-        "numClusters": 3,
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 0}
+        ],
+        "clusterSize": 6,
+        "numClusters": 4,
+        "chunkChance": 2,
         "maxHeight": 55,
         "minHeight": 45,
         "retrogen": "false",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"},
-            {"type": "dictionary", "entry": "JUNGLE"}
+            {"type": "dictionary", "entry": "OCEAN"},
+            {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -23,20 +22,19 @@
     },
     "overworld-tin": {
         "template": "uniform",
-        "block": {
-            "name": "ThermalFoundation:Ore",
-            "metadata": 1
-        },
-        "clusterSize": 5,
-        "numClusters": 3,
+        "block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 1}
+        ],
+        "clusterSize": 6,
+        "numClusters": 4,
+        "chunkChance": 2,
         "maxHeight": 45,
         "minHeight": 35,
         "retrogen": "false",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"},
-            {"type": "dictionary", "entry": "JUNGLE"}
+            {"type": "dictionary", "entry": "OCEAN"},
+            {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -46,27 +44,19 @@
     "overworld-silver": {
         "template": "uniform",
         "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 2,
-                "weight": 80
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 3,
-                "weight": 20
-            }
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 20}
         ],
         "clusterSize": 6,
-        "numClusters": 3,
+        "numClusters": 4,
+        "chunkChance": 2,
         "maxHeight": 35,
         "minHeight": 25,
         "retrogen": "false",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"},
-            {"type": "dictionary", "entry": "JUNGLE"}
+            {"type": "dictionary", "entry": "OCEAN"},
+            {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -76,27 +66,19 @@
     "overworld-lead": {
         "template": "uniform",
         "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 3,
-                "weight": 90
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 2,
-                "weight": 10
-            }
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 20}
         ],
         "clusterSize": 6,
-        "numClusters": 3,
+        "numClusters": 4,
+        "chunkChance": 2,
         "maxHeight": 25,
         "minHeight": 15,
         "retrogen": "false",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "FOREST"},
-            {"type": "dictionary", "entry": "JUNGLE"}
+            {"type": "dictionary", "entry": "OCEAN"},
+            {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [
@@ -106,27 +88,19 @@
     "overworld-ferrous-shiny": {
         "template": "uniform",
         "block": [
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 4,
-                "weight": 90
-            },
-            {
-                "name": "ThermalFoundation:Ore",
-                "metadata": 5,
-                "weight": 10
-            }
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 90},
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 10}
         ],
         "clusterSize": 8,
         "numClusters": 3,
-        "maxHeight": 80,
-        "minHeight": 70,
+        "chunkChance": 2,
+        "maxHeight": 20,
+        "minHeight": 0,
         "retrogen": "false",
-        "biomeRestriction": "whitelist",
+        "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "dictionary", "entry": "HILLS"},
-            {"type": "dictionary", "entry": "MOUNTAIN"}
+            {"type": "dictionary", "entry": "OCEAN"},
+            {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
         "dimensions": [

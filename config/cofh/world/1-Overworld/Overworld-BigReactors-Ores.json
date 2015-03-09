@@ -5,15 +5,13 @@
             "name": "BigReactors:YelloriteOre",
             "metadata": 0
         },
-        "clusterSize": 5,
-        "numClusters": 3,
+        "clusterSize": 6,
+        "numClusters": 6,
         "maxHeight": 35,
         "minHeight": 25,
         "retrogen": "false",
         "biomeRestriction": "whitelist",
         "biomes": [
-            {"type": "name", "entry": "Oasis"},
-            {"type": "name", "entry": "Badlands"},
             {"type": "name", "entry": "Tainted Land"}
         ],
         "dimensionRestriction": "whitelist",
