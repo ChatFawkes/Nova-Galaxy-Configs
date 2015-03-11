@@ -1,4 +1,4 @@
-# Define Variables
+//Define variables
 val mooniron = <InterstellarOres:oreMoon>;
 val moongold = <InterstellarOres:oreMoon:1>;
 val mooncopper  = <InterstellarOres:oreMoon:2>;
@@ -41,7 +41,11 @@ val osmium = <Mekanism:Ingot:1>;
 val uranium = <BigReactors:BRIngot>;
 val platinum = <ThermalFoundation:material:69>;
 
-# Add furnace recipes
+//-------------------
+//TWEAKS START BELOW
+//-------------------
+
+//Add furnace recipes for all ores
 furnace.addRecipe(iron, mooniron);
 furnace.addRecipe(iron, marsiron);
 furnace.addRecipe(gold, moongold);
@@ -65,10 +69,7 @@ furnace.addRecipe(platinum, marsplatinum);
 furnace.addRecipe(platinum, asteroidplatinum);
 furnace.addRecipe(platinum, iceplatinum);
 
-# Hide Big Reactors Yellorite in NEI
-mods.nei.NEI.hide(<BigReactors:YelloriteOre>);
-
-# Hide unused Galacticraft Ores
+//Hide unused Galacticraft Ores
 mods.nei.NEI.hide(<GalacticraftCore:tile.moonBlock>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.moonBlock:1>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:5>);
@@ -76,5 +77,5 @@ mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:6>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:7>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:8>);
 
-# Rename Uranium to Yellorite
-# mods.nei.NEI.overrideName(marsuranium, "Uranium Ore (Yellorite)");
+//Rename Uranium to Yellorite
+mods.nei.NEI.overrideName(marsuranium, "Mars Yellorite Ore");

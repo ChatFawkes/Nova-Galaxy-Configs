@@ -1,4 +1,4 @@
-# Define variables
+//Define variables
 val tesseract = <ThermalExpansion:Tesseract>;
 val enderium = <ThermalFoundation:material:76>;
 val deshingot =  <GalacticraftMars:item.null:2>;
@@ -11,24 +11,30 @@ val tingear = <ore:gearTin>;
 val salt = <harvestcraft:saltItem>;
 val tankReinforced = <ore:tankReinforced>;
 
-# Add oredict entry for Reinforced Portable Tank
+//-------------------
+//TWEAKS START BELOW
+//-------------------
+
+//Add ore dictionary entry for Reinforced Portable Tank
 tankReinforced.add(<ThermalExpansion:Tank:3>);
 
-# Change recipe for Tesseract Frame (Empty) # Uses Desh which is obtained on Mars
+//Change recipe for Tesseract Frame (Empty) //Uses Desh which is obtained on Mars
 recipes.remove(tessframe);
 recipes.addShaped(tessframe,
  [[enderium, deshingot, enderium],
   [hardglass, <minecraft:diamond>, hardglass],
   [enderium, hardglass, enderium]]);
-tessframe.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Tesseract Frame
+tessframe.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 tessframe.addShiftTooltip(format.darkPurple("Requires materials"));
 tessframe.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
   
-# Change recipe for Basic Machine Frame to use Steel
+//Change recipe for Basic Machine Frame to use Steel
 recipes.remove(basicframe);
 recipes.addShaped(basicframe,
  [[steel, glass, steel],
   [glass, tingear, glass],
   [steel, glass, steel]]);
-basicframe.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Basic Machine Frame
+basicframe.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 basicframe.addShiftTooltip(format.darkPurple("Requires ") + format.yellow("Steel Ingots"));

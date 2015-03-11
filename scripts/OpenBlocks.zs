@@ -1,22 +1,19 @@
-# Declare variables
+//Define variables
 val elevator = <OpenBlocks:elevator>;
 val slimeball = <ore:slimeball>;
 val levitator = <Thaumcraft:blockLifter>;
 val tank = <OpenBlocks:tank>;
 
-# Change recipe for Elevator
+//-------------------
+//TWEAKS START BELOW
+//-------------------
+
+//Change recipe for Elevator to use Arcane Levitator
 recipes.remove(elevator);
 recipes.addShaped(elevator,
  [[<ore:dyeWhite>, slimeball, <ore:dyeWhite>],
   [<ore:blockCloth>, levitator, <ore:blockCloth>],
   [<ore:dyeWhite>, slimeball, <ore:dyeWhite>]]);
-elevator.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
-elevator.addShiftTooltip(format.darkPurple("Requires ") + format.yellow("Travel Anchor"));
-elevator.addShiftTooltip(format.darkPurple("and ") + format.yellow("Arcane Levitator"));
-
-# Change recipe for Tank to output 1 tank instead of 2
-recipes.remove(tank);
-recipes.addShaped(tank,
- [[<minecraft:obsidian:*>, <minecraft:glass_pane:*>, <minecraft:obsidian:*>],
-  [<minecraft:glass_pane:*>, <minecraft:glass_pane:*>, <minecraft:glass_pane:*>],
-  [<minecraft:obsidian:*>, <minecraft:glass_pane:*>, <minecraft:obsidian:*>]]);
+//Add tooltip for Elevator
+elevator.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
+elevator.addShiftTooltip(format.darkPurple("Requires an ") + format.yellow("Arcane Levitator"));

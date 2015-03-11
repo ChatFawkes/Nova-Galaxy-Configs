@@ -1,5 +1,5 @@
-# Declare variables
-val endquarry = <ExtraUtilities:enderQuarry>;
+//Define variables
+val enderquarry = <ExtraUtilities:enderQuarry>;
 val quarry = <BuildCraft|Factory:machineBlock>;
 val lunarium = <InterstellarOres:materialLunarium:0>;
 val desh = <GalacticraftMars:item.null:2>;
@@ -50,118 +50,129 @@ val fortune2pick = <minecraft:golden_pickaxe>.withTag({ench: [{id: 35 as short, 
 val fortune3pick = <minecraft:diamond_pickaxe>.withTag({ench: [{id: 35 as short, lvl: 3 as short}]});
 val silktouchpick = <minecraft:diamond_pickaxe>.withTag({ench: [{id: 33 as short, lvl: 1 as short}]});
 
-# Remove recipe for Ender Transmitter
+//-------------------
+//TWEAKS START BELOW
+//-------------------
+
+//Remove recipe for Ender Transmitter
 recipes.remove(endtransmitter);
-mods.nei.NEI.hide(endtransmitter);
+//Add tooltip for Ender Transmitter 
+endtransmitter.addTooltip(format.red("Disabled"));
 
-# Remove recipe for Ender Receiver
+//Remove recipe for Ender Receiver
 recipes.remove(endreceiver);
-mods.nei.NEI.hide(endreceiver);
+//Add tooltip for Ender Receiver 
+endreceiver.addTooltip(format.red("Disabled"));
 
-# Change recipe for Ender Quarry
-recipes.remove(endquarry);
-recipes.addShaped(endquarry,
+//Change recipe for Ender Quarry to use a Nether Star
+recipes.remove(enderquarry);
+recipes.addShaped(enderquarry,
  [[endobsidian, nstar, endobsidian],
   [endcore, compmatrix, endcore],
   [endpump, quarry, endpump]]);
-# endquarry.addTooltip(format.yellow("-") + format.darkPurple("MineTweaked") + format.yellow("-"));
-endquarry.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
-endquarry.addShiftTooltip(format.darkPurple("Requires materials"));
-endquarry.addShiftTooltip(format.darkPurple("from ") + format.yellow("The Nether"));
+//Add tooltip for Ender Quarry
+enderquarry.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
+enderquarry.addShiftTooltip(format.darkPurple("Requires materials"));
+enderquarry.addShiftTooltip(format.darkPurple("from ") + format.yellow("The Nether"));
  
-# Remove recipes for Angel Rings
+//Remove recipes for all Angel Rings
 recipes.remove(angelrings);
 
-# Add recipe for Angel Ring (Invisible)
+//Create new recipe for Angel Ring (Invisible) that uses end-game items from various mods
 recipes.addShaped(angelringi,
  [[fluxcrystal, unstable, fluxcrystal],
   [voidmetal, jetpack,  voidmetal],
   [titanium, fluxcrystal, titanium]]);
 
-# Add shapeless recipes for other Angel Rings
+//Add shapeless recipes so you can convert between rings types easily
+recipes.addShapeless(angelringfe, [angelringi]);                    #Invisible -> Feathery
+recipes.addShapeless(angelringfa, [angelringfe]);                   #Feather -> Fairy
+recipes.addShapeless(angelringd, [angelringfa]);                    #Fairy -> Dragon
+recipes.addShapeless(angelringg, [angelringd]);                     #Dragon -> Golden
+recipes.addShapeless(angelringi, [angelringg]);                     #Golden -> Invisible
 
-recipes.addShapeless(angelringfe, [angelringi]);                    # Invisible -> Feathery
-
-recipes.addShapeless(angelringfa, [angelringfe]);                   # Feather -> Fairy
-
-recipes.addShapeless(angelringd, [angelringfa]);                    # Fairy -> Dragon
-
-recipes.addShapeless(angelringg, [angelringd]);                     # Dragon -> Golden
-
-recipes.addShapeless(angelringi, [angelringg]);                     # Golden -> Invisible
-angelrings.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Angel Rings
+angelrings.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 angelrings.addShiftTooltip(format.darkPurple("Requires ingots"));
 angelrings.addShiftTooltip(format.darkPurple("from various mods"));
 
-# Add alternative recipe for Reinforced Watering Can
+//Add alternative recipe for Reinforced Watering Can
 recipes.addShaped(refcan,
  [[bedblock, yellowheart, redheart],
   [bedblock, <minecraft:bowl>, bedblock],
   [null, bedblock, null]]);
-refcan.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Reinforced Watering Can
+refcan.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 refcan.addShiftTooltip(format.darkPurple("Alternate recipe"));
 refcan.addShiftTooltip(format.darkPurple("with TiCon hearts"));
 
-# Change recipe for Drum
+//Change recipe for Drum to use a Reinforced Portable Tank
 recipes.remove(drum);
 recipes.addShaped(drum,
  [[null, hwpressureplate, null],
   [hwpressureplate, refportabletank, hwpressureplate],
   [null, hwpressureplate, null]]);
-drum.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Drum
+drum.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 drum.addShiftTooltip(format.darkPurple("Requires Reinforced"));
 drum.addShiftTooltip(format.darkPurple("Portable Tank"));
 
-# Change recipe for Speed 2 Upgrade
+//Change recipe for "Ender Quarry Speed 2 Upgrade" to use Lunarium from the Moon
 recipes.remove(speed2upgrade);
 recipes.addShaped(speed2upgrade,
  [[null, speedupgrade, null],
   [lunarium, speed1upgrade, lunarium]]);
-speed2upgrade.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Speed 2 Upgrade
+speed2upgrade.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 speed2upgrade.addShiftTooltip(format.darkPurple("Requires materials"));
 speed2upgrade.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));
 
-# Change recipe for Speed 3 Upgrade
+//Change recipe for "Ender Quarry Speed 3 Upgrade" to use Desh from Mars
 recipes.remove(speed3upgrade);
 recipes.addShaped(speed3upgrade,
  [[stackupgrade, null, stackupgrade],
   [desh, speed2upgrade, desh]]);
-speed3upgrade.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Speed 3 Upgrade
+speed3upgrade.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 speed3upgrade.addShiftTooltip(format.darkPurple("Requires materials"));
 speed3upgrade.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
 
-# Change Recipe for Fortune 1 Upgrade
+//Change Recipe for "Ender Quarry Fortune 1 Upgrade" to use Lunarium from the Moon
 recipes.remove(fortune1upgrade);
 recipes.addShaped(fortune1upgrade,
  [[null, fortune1pick, null],
   [lunarium, upgradebase, lunarium]]);
-fortune1upgrade.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Fortune 1 Upgrade
+fortune1upgrade.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 fortune1upgrade.addShiftTooltip(format.darkPurple("Requires materials"));
 fortune1upgrade.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Moon"));
 
-# Change recipe for Fortune 2 Upgrade
+//Change recipe for "Ender Quarry Fortune 2 Upgrade" to use Desh from Mars
 recipes.remove(fortune2upgrade);
 recipes.addShaped(fortune2upgrade,
  [[null, fortune2pick, null],
   [desh, fortune1upgrade, desh]]);
-fortune2upgrade.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Fortune 2 Upgrade
+fortune2upgrade.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 fortune2upgrade.addShiftTooltip(format.darkPurple("Requires materials"));
 fortune2upgrade.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
 
-# Change recipe for Fortune 3 Upgrade
+//Change recipe for "Ender Quarry Fortune 3 Upgrade" to use Titanium from the Asteroids
 recipes.remove(fortune3upgrade);
 recipes.addShaped(fortune3upgrade,
  [[null, fortune3pick, null],
   [titanium, fortune2upgrade, titanium]]);
-fortune3upgrade.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Fortune 3 Upgrade
+fortune3upgrade.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 fortune3upgrade.addShiftTooltip(format.darkPurple("Requires materials"));
 fortune3upgrade.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
 
-# Change recipe for Silk Touch Upgrade
+//Change recipe for "Ender Quarry Silk Touch Upgrade" to use Titanium from the Asteroids
 recipes.remove(silktouchupgrade);
 recipes.addShaped(silktouchupgrade,
  [[null, silktouchpick, null],
   [titanium, upgradebase, titanium]]);
-silktouchupgrade.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+//Add tooltip for Silk Touch Upgrade
+silktouchupgrade.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 silktouchupgrade.addShiftTooltip(format.darkPurple("Requires materials"));
 silktouchupgrade.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
