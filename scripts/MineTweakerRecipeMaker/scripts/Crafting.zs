@@ -47,30 +47,28 @@ recipes.addShaped(<gendustry:Mutatron>, [[<gendustry:BeeReceptacle>, <gendustry:
 recipes.addShaped(<minechem:tile.chemicalSynthesizer>, [[<GalacticraftMars:item.itemBasicAsteroids:5>, <minecraft:redstone>, <GalacticraftMars:item.itemBasicAsteroids:5>], [<GalacticraftMars:item.itemBasicAsteroids:5>, <minechem:minechemAtomicManipulator>, <GalacticraftMars:item.itemBasicAsteroids:5>], [<GalacticraftMars:item.itemBasicAsteroids:5>, <minecraft:emerald>, <GalacticraftMars:item.itemBasicAsteroids:5>]]);
 recipes.addShaped(<minechem:tile.chemicalDecomposer>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [<ore:ingotTitanium>, <minechem:minechemAtomicManipulator>, <GalacticraftMars:item.itemBasicAsteroids:5>], [<ore:ingotTitanium>, <ore:dustRedstone>, <ore:ingotTitanium>]]);
 recipes.addShaped(<minechem:minechemAtomicManipulator>, [[<TMechworks:RedstoneMachine>, <TMechworks:RedstoneMachine>, <TMechworks:RedstoneMachine>], [<TMechworks:RedstoneMachine>, <ore:compressedTitanium>, <TMechworks:RedstoneMachine>], [<TMechworks:RedstoneMachine>, <TMechworks:RedstoneMachine>, <TMechworks:RedstoneMachine>]]);
-recipes.addShaped(<StevesFactoryManager:BlockCableName> * 8, [[<ore:blockGlass>, <ThermalExpansion:Plate>, <ore:blockGlass>], [<ore:ingotTitanium>, <ore:dustRedstone>, <ore:ingotTitanium>], [<ore:blockGlass>, <ThermalExpansion:Plate>, <ore:blockGlass>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [<ore:ingotTitanium>, <ore:blockRedstone>, <ore:ingotTitanium>], [<ore:asteroidRock>, <TMechworks:RedstoneMachine>, <ore:asteroidRock>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [<ore:ingotTitanium>, <ore:blockRedstone>, <ore:ingotTitanium>], [<ore:asteroidRock>, <TMechworks:RedstoneMachine>, <ore:asteroidRock>]]);
-recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>], [<ore:ingotTitanium>, <ore:blockRedstone>, <ore:ingotTitanium>], [<ore:asteroidRock>, <TMechworks:RedstoneMachine>, <ore:asteroidRock>]]);
+recipes.addShaped(<StevesFactoryManager:BlockCableName> * 8, [[<ore:blockGlass>, <ThermalExpansion:Plate>, <ore:blockGlass>], [<ore:plateDesh>, <ore:dustRedstone>, <ore:plateDesh>], [<ore:blockGlass>, <ThermalExpansion:Plate>, <ore:blockGlass>]]);
+recipes.addShaped(<StevesFactoryManager:BlockMachineManagerName>, [[<ore:plateDesh>, <ore:plateDesh>, <ore:plateDesh>], [<ore:plateDesh>, <ore:blockRedstone>, <ore:plateDesh>], [<ore:plateDesh>, <TMechworks:RedstoneMachine>, <ore:plateDesh>]]);
 
+// ================================================================================
 //#MARKER ADD TOOLTIPS
 
-
-<minechem:tile.chemicalSynthesizer>.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+<minechem:tile.chemicalSynthesizer>.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 <minechem:tile.chemicalSynthesizer>.addShiftTooltip(format.darkPurple("Requires materials"));
 <minechem:tile.chemicalSynthesizer>.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
 
-<minechem:tile.chemicalDecomposer>.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+<minechem:tile.chemicalDecomposer>.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 <minechem:tile.chemicalDecomposer>.addShiftTooltip(format.darkPurple("Requires materials"));
 <minechem:tile.chemicalDecomposer>.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
 
-<minechem:minechemAtomicManipulator>.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+<minechem:minechemAtomicManipulator>.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 <minechem:minechemAtomicManipulator>.addShiftTooltip(format.darkPurple("Requires materials"));
 <minechem:minechemAtomicManipulator>.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
 
-<StevesFactoryManager:BlockCableName>.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+<StevesFactoryManager:BlockCableName>.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 <StevesFactoryManager:BlockCableName>.addShiftTooltip(format.darkPurple("Requires materials"));
-<StevesFactoryManager:BlockCableName>.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
+<StevesFactoryManager:BlockCableName>.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
 
-<StevesFactoryManager:BlockMachineManagerName>.addTooltip(format.darkAqua(format.italic("<Flux Shift>")));
+<StevesFactoryManager:BlockMachineManagerName>.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 <StevesFactoryManager:BlockMachineManagerName>.addShiftTooltip(format.darkPurple("Requires materials"));
-<StevesFactoryManager:BlockMachineManagerName>.addShiftTooltip(format.darkPurple("from the ") + format.yellow("Asteroids"));
+<StevesFactoryManager:BlockMachineManagerName>.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
