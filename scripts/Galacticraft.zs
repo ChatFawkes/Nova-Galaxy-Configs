@@ -30,9 +30,9 @@ val basicwafer = <GalacticraftCore:item.basicItem:13>;
 val advwafer = <GalacticraftCore:item.basicItem:14>;
 val redstone = <minecraft:redstone>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Remove recipe for Basic Solar Panel
 recipes.remove(basicsolar);

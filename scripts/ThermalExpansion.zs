@@ -11,9 +11,9 @@ val tingear = <ore:gearTin>;
 val salt = <harvestcraft:saltItem>;
 val tankReinforced = <ore:tankReinforced>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Add ore dictionary entry for Reinforced Portable Tank
 tankReinforced.add(<ThermalExpansion:Tank:3>);

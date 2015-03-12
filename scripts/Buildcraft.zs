@@ -8,9 +8,9 @@ val bzgear = <ore:gearBronze>;
 val qtzpick = <appliedenergistics2:item.ToolNetherQuartzPickaxe>;
 val quarry = <BuildCraft|Factory:machineBlock>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================s
 
 //Change recipe for Quarry to use different gears and a Nether Quartz Pickaxe
 recipes.remove(quarry);

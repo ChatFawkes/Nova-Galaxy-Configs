@@ -14,9 +14,9 @@ val purefluix = <appliedenergistics2:item.ItemMultiMaterial:12>;
 val deshplate = <GalacticraftMars:item.null:5>;
 val lunariumplate = <InterstellarOres:materialLunarium:1>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Create recipe for Calculation (Pure Certus) Press
 recipes.addShaped(calcpress,

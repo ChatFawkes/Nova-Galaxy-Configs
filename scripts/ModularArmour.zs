@@ -8,9 +8,9 @@ val deshplate = <GalacticraftMars:item.null:5>;
 val titaniumingot = <GalacticraftMars:item.itemBasicAsteroids:5>;
 val titaniumplate = <GalacticraftMars:item.itemBasicAsteroids:6>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 /*Remove unwanted upgrades
 mods.modularArmour.remove("explosionProtector");

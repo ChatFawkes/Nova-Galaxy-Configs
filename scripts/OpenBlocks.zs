@@ -3,9 +3,9 @@ val elevator = <OpenBlocks:elevator>;
 val slimeball = <ore:slimeball>;
 val levitator = <Thaumcraft:blockLifter>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Change recipe for Elevator to use Arcane Levitator
 recipes.remove(elevator);

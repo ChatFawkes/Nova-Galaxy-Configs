@@ -26,9 +26,9 @@ val steelplate = <ore:compressedSteel>;
 val lunarium = <InterstellarOres:materialLunarium:0>;
 val furnace = <minecraft:furnace>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Add Aluminum Ingot -> Dust recipe to Crusher
 mods.mekanism.Crusher.addRecipe(<TConstruct:materials:11>, <TConstruct:materials:40>);

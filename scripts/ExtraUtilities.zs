@@ -50,9 +50,9 @@ val fortune2pick = <minecraft:golden_pickaxe>.withTag({ench: [{id: 35 as short, 
 val fortune3pick = <minecraft:diamond_pickaxe>.withTag({ench: [{id: 35 as short, lvl: 3 as short}]});
 val silktouchpick = <minecraft:diamond_pickaxe>.withTag({ench: [{id: 33 as short, lvl: 1 as short}]});
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Remove recipe for Ender Transmitter
 recipes.remove(endtransmitter);

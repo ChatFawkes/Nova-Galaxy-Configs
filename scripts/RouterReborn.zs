@@ -3,9 +3,9 @@ val router = <RouterReborn:router>;
 val enderium = <ThermalFoundation:material:76>;
 val fluxcrystal = <RedstoneArsenal:material:96>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Change recipe for Router to use Fluxed Crystal and Enderium
 recipes.remove(router);

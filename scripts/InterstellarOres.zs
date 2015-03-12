@@ -41,9 +41,9 @@ val osmium = <Mekanism:Ingot:1>;
 val uranium = <BigReactors:BRIngot>;
 val platinum = <ThermalFoundation:material:69>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Add furnace recipes for all ores
 furnace.addRecipe(iron, mooniron);

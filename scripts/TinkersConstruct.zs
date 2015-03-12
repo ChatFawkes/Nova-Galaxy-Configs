@@ -6,9 +6,9 @@ val aluminum = <TConstruct:materials:11>;
 val aluminumnugget = <ore:nuggetAluminum>;
 val tcaluminumnugget = <TConstruct:materials:22>;
 
-//-------------------
+//==================
 //TWEAKS START BELOW
-//-------------------
+//==================
 
 //Fix oreberry -> ingot recipe for Gold
 recipes.removeShaped(gold,
