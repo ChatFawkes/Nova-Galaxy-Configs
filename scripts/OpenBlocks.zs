@@ -2,7 +2,6 @@
 val elevator = <OpenBlocks:elevator>;
 val slimeball = <ore:slimeball>;
 val levitator = <Thaumcraft:blockLifter>;
-val tank = <OpenBlocks:tank>;
 
 //-------------------
 //TWEAKS START BELOW
