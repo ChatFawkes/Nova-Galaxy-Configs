@@ -3,7 +3,7 @@
   "doorX": 0,
   "doorZ": 0,
   "doorY": 0,
-  "buildingTier": 0,
+  "buildingTier": 1,
   "buildingType": 0,
   "blockList": [
     {
@@ -1517,7 +1517,7 @@
       ]
     },
     {
-      "blockid": "AWWayofTime:blockSchemSaver",
+      "blockid": "minecraft:stonebrick",
       "metadata": [
         0,
         0,

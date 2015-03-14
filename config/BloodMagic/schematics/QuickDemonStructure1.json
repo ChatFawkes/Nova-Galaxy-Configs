@@ -1,13 +1,13 @@
 {
-  "name": "",
+  "name": "QuickDemonStructure1",
   "doorX": 0,
   "doorZ": 0,
   "doorY": 0,
-  "buildingTier": 1,
+  "buildingTier": 0,
   "buildingType": 0,
   "blockList": [
     {
-      "blockid": "minecraft:stonebrick",
+      "blockid": "minecraft:mossy_cobblestone",
       "metadata": [
         0,
         0,
@@ -23,66 +23,11 @@
         {
           "xCoord": -2,
           "yCoord": 0,
-          "zCoord": -1
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 0,
           "zCoord": 0
         },
         {
           "xCoord": -2,
           "yCoord": 0,
-          "zCoord": 1
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 0,
-          "zCoord": 2
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 1,
-          "zCoord": -2
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 1,
-          "zCoord": 0
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 1,
-          "zCoord": 2
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 2,
-          "zCoord": -2
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 2,
-          "zCoord": 0
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 2,
-          "zCoord": 2
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 3,
-          "zCoord": -2
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 3,
-          "zCoord": 0
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 3,
           "zCoord": 2
         },
         {
@@ -98,11 +43,6 @@
         {
           "xCoord": -1,
           "yCoord": 0,
-          "zCoord": 0
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 0,
           "zCoord": 1
         },
         {
@@ -111,74 +51,14 @@
           "zCoord": 2
         },
         {
-          "xCoord": -1,
-          "yCoord": 3,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 0,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 0,
-          "zCoord": -1
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 0,
-          "zCoord": 1
-        },
-        {
           "xCoord": 0,
           "yCoord": 0,
           "zCoord": 2
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 1,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 2,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 3,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 0,
-          "zCoord": -2
         },
         {
           "xCoord": 1,
           "yCoord": 0,
           "zCoord": -1
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 0,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 0,
-          "zCoord": 1
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 0,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 3,
-          "zCoord": -2
         },
         {
           "xCoord": 2,
@@ -193,67 +73,83 @@
         {
           "xCoord": 2,
           "yCoord": 0,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 0,
-          "zCoord": 1
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 0,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 1,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 1,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 1,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 2,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 2,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 2,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 3,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 3,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 3,
           "zCoord": 2
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:cobblestone",
+      "metadata": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "positions": [
+        {
+          "xCoord": -2,
+          "yCoord": 0,
+          "zCoord": -1
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 0,
+          "zCoord": 1
+        },
+        {
+          "xCoord": -1,
+          "yCoord": 0,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 0,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 0,
+          "zCoord": -1
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 0,
+          "zCoord": 1
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 0,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 0,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 0,
+          "zCoord": 1
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 0,
+          "zCoord": 2
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 0,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 0,
+          "zCoord": 1
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
         0,
         1,
@@ -264,7 +160,17 @@
         {
           "xCoord": -2,
           "yCoord": 1,
+          "zCoord": -2
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 1,
           "zCoord": -1
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 1,
+          "zCoord": 0
         },
         {
           "xCoord": -2,
@@ -274,68 +180,43 @@
       ]
     },
     {
-      "blockid": "minecraft:iron_bars",
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
-        0,
-        0,
-        0,
+        3,
+        2,
+        1,
         0
       ],
       "positions": [
         {
           "xCoord": -2,
-          "yCoord": 2,
-          "zCoord": -1
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 2,
-          "zCoord": 1
+          "yCoord": 1,
+          "zCoord": 2
         },
         {
           "xCoord": -1,
           "yCoord": 1,
-          "zCoord": -2
+          "zCoord": 2
         },
         {
-          "xCoord": -1,
-          "yCoord": 2,
-          "zCoord": -2
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 2,
+          "xCoord": 0,
+          "yCoord": 1,
           "zCoord": 2
         },
         {
           "xCoord": 1,
           "yCoord": 1,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 2,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 2,
           "zCoord": 2
         },
         {
           "xCoord": 2,
-          "yCoord": 2,
-          "zCoord": -1
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 2,
-          "zCoord": 1
+          "yCoord": 1,
+          "zCoord": 2
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
         4,
         5,
@@ -345,181 +226,258 @@
       "positions": [
         {
           "xCoord": -2,
-          "yCoord": 3,
-          "zCoord": -1
-        },
-        {
-          "xCoord": -2,
-          "yCoord": 3,
-          "zCoord": 1
-        }
-      ]
-    },
-    {
-      "blockid": "minecraft:stone_slab",
-      "metadata": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "positions": [
-        {
-          "xCoord": -2,
-          "yCoord": 4,
+          "yCoord": 2,
           "zCoord": -2
         },
         {
           "xCoord": -2,
-          "yCoord": 4,
+          "yCoord": 2,
+          "zCoord": -1
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 2,
           "zCoord": 0
         },
         {
           "xCoord": -2,
-          "yCoord": 4,
-          "zCoord": 2
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 4,
-          "zCoord": -1
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 4,
-          "zCoord": 0
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 4,
+          "yCoord": 2,
           "zCoord": 1
         },
         {
-          "xCoord": 0,
-          "yCoord": 4,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 4,
-          "zCoord": -1
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 4,
-          "zCoord": 1
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 4,
-          "zCoord": 2
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 4,
-          "zCoord": -1
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 4,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 4,
-          "zCoord": 1
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 4,
-          "zCoord": -2
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 4,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 2,
-          "yCoord": 4,
+          "xCoord": -2,
+          "yCoord": 2,
           "zCoord": 2
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:cobblestone_wall",
       "metadata": [
-        3,
-        2,
         1,
+        1,
+        1,
+        1
+      ],
+      "positions": [
+        {
+          "xCoord": -2,
+          "yCoord": 3,
+          "zCoord": -2
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 3,
+          "zCoord": 0
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 4,
+          "zCoord": 0
+        },
+        {
+          "xCoord": -1,
+          "yCoord": 3,
+          "zCoord": 2
+        },
+        {
+          "xCoord": -1,
+          "yCoord": 4,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 3,
+          "zCoord": 2
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 4,
+          "zCoord": -1
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 4,
+          "zCoord": 2
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 4,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 3,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 3,
+          "zCoord": 1
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 3,
+          "zCoord": 2
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:cobblestone_wall",
+      "metadata": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "positions": [
+        {
+          "xCoord": -2,
+          "yCoord": 3,
+          "zCoord": -1
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 3,
+          "zCoord": 1
+        },
+        {
+          "xCoord": -2,
+          "yCoord": 3,
+          "zCoord": 2
+        },
+        {
+          "xCoord": -1,
+          "yCoord": 3,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 3,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 4,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 4,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 4,
+          "zCoord": 1
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 3,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 3,
+          "zCoord": 2
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 3,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 3,
+          "zCoord": -1
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 4,
+          "zCoord": 0
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:stone_stairs",
+      "metadata": [
+        2,
+        3,
+        0,
+        1
+      ],
+      "positions": [
+        {
+          "xCoord": -1,
+          "yCoord": 1,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 1,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 1,
+          "zCoord": -2
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:redstone_wire",
+      "metadata": [
+        0,
+        0,
+        0,
         0
       ],
       "positions": [
         {
           "xCoord": -1,
           "yCoord": 1,
-          "zCoord": 2
+          "zCoord": 0
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 1,
+          "zCoord": 0
         },
         {
           "xCoord": 1,
           "yCoord": 1,
-          "zCoord": 2
+          "zCoord": -1
+        },
+        {
+          "xCoord": 1,
+          "yCoord": 1,
+          "zCoord": 1
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_slab",
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
-        13,
-        13,
-        13,
-        13
+        6,
+        7,
+        4,
+        5
       ],
       "positions": [
         {
           "xCoord": -1,
-          "yCoord": 3,
-          "zCoord": -1
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 3,
-          "zCoord": 0
-        },
-        {
-          "xCoord": -1,
-          "yCoord": 3,
-          "zCoord": 1
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 3,
-          "zCoord": -1
-        },
-        {
-          "xCoord": 0,
-          "yCoord": 3,
-          "zCoord": 1
+          "yCoord": 2,
+          "zCoord": -2
         },
         {
           "xCoord": 1,
-          "yCoord": 3,
-          "zCoord": -1
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 3,
-          "zCoord": 0
-        },
-        {
-          "xCoord": 1,
-          "yCoord": 3,
-          "zCoord": 1
+          "yCoord": 2,
+          "zCoord": -2
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
         7,
         6,
@@ -529,18 +487,28 @@
       "positions": [
         {
           "xCoord": -1,
-          "yCoord": 3,
+          "yCoord": 2,
+          "zCoord": 2
+        },
+        {
+          "xCoord": 0,
+          "yCoord": 2,
           "zCoord": 2
         },
         {
           "xCoord": 1,
-          "yCoord": 3,
+          "yCoord": 2,
+          "zCoord": 2
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 2,
           "zCoord": 2
         }
       ]
     },
     {
-      "blockid": "minecraft:stonebrick",
+      "blockid": "minecraft:mossy_cobblestone",
       "metadata": [
         0,
         0,
@@ -556,39 +524,55 @@
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:wooden_door",
       "metadata": [
-        6,
-        7,
-        4,
-        5
-      ],
-      "positions": [
-        {
-          "xCoord": 0,
-          "yCoord": 3,
-          "zCoord": -2
-        }
-      ]
-    },
-    {
-      "blockid": "minecraft:glass",
-      "metadata": [
-        0,
-        0,
-        0,
+        3,
+        1,
+        2,
         0
       ],
       "positions": [
         {
           "xCoord": 0,
-          "yCoord": 4,
-          "zCoord": 0
+          "yCoord": 1,
+          "zCoord": -2
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:wooden_door",
+      "metadata": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "positions": [
+        {
+          "xCoord": 0,
+          "yCoord": 2,
+          "zCoord": -2
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:redstone_torch",
+      "metadata": [
+        4,
+        3,
+        2,
+        1
+      ],
+      "positions": [
+        {
+          "xCoord": 0,
+          "yCoord": 2,
+          "zCoord": 1
+        }
+      ]
+    },
+    {
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
         1,
         0,
@@ -604,12 +588,17 @@
         {
           "xCoord": 2,
           "yCoord": 1,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 1,
           "zCoord": 1
         }
       ]
     },
     {
-      "blockid": "minecraft:stone_brick_stairs",
+      "blockid": "minecraft:stone_stairs",
       "metadata": [
         5,
         4,
@@ -619,12 +608,22 @@
       "positions": [
         {
           "xCoord": 2,
-          "yCoord": 3,
+          "yCoord": 2,
+          "zCoord": -2
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 2,
           "zCoord": -1
         },
         {
           "xCoord": 2,
-          "yCoord": 3,
+          "yCoord": 2,
+          "zCoord": 0
+        },
+        {
+          "xCoord": 2,
+          "yCoord": 2,
           "zCoord": 1
         }
       ]
