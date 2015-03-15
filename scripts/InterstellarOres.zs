@@ -19,7 +19,7 @@ val marssilver = <InterstellarOres:oreMars:5>;
 val marsnickel = <InterstellarOres:oreMars:6>;
 val marsalum = <InterstellarOres:oreMars:7>;
 val marsosmium = <InterstellarOres:oreMars:8>;
-val marsuranium = <InterstellarOres:oreMars:9>;
+val marsyellorite = <InterstellarOres:oreMars:9>;
 val marsplatinum = <InterstellarOres:oreMars:10>;
 val asteroiddiamond = <InterstellarOres:oreAsteroid>;
 val asteroidplatinum = <InterstellarOres:oreAsteroid:1>;
@@ -38,7 +38,7 @@ val silver = <ThermalFoundation:material:66>;
 val nickel = <ThermalFoundation:material:68>;
 val alum = <TConstruct:materials:11>;
 val osmium = <Mekanism:Ingot:1>;
-val uranium = <BigReactors:BRIngot>;
+val yellorium = <BigReactors:BRIngot>;
 val platinum = <ThermalFoundation:material:69>;
 
 //==================
@@ -64,7 +64,7 @@ furnace.addRecipe(alum, moonalum);
 furnace.addRecipe(alum, marsalum);
 furnace.addRecipe(osmium, moonosmium);
 furnace.addRecipe(osmium, marsosmium);
-furnace.addRecipe(uranium, marsuranium);
+furnace.addRecipe(yellorium, marsyellorite);
 furnace.addRecipe(platinum, marsplatinum);
 furnace.addRecipe(platinum, asteroidplatinum);
 furnace.addRecipe(platinum, iceplatinum);
@@ -76,6 +76,3 @@ mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:5>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:6>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:7>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.gcBlockCore:8>);
-
-//Rename Uranium to Yellorite
-mods.nei.NEI.overrideName(marsuranium, "Mars Yellorite Ore");
