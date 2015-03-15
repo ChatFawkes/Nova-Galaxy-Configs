@@ -5,9 +5,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 50},
             {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 50}
         ],
-        "clusterSize": 6,
+        "clusterSize": 5,
         "numClusters": 4,
-        "chunkChance": 2,
         "maxHeight": 150,
         "minHeight": 130,
         "retrogen": "false",
@@ -26,9 +25,8 @@
             {"name": "Mekanism:OreBlock", "metadata": 0, "weight": 60},
             {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 40}
         ],
-        "clusterSize": 6,
+        "clusterSize": 5,
         "numClusters": 4,
-        "chunkChance": 2,
         "maxHeight": 130,
         "minHeight": 110,
         "retrogen": "false",
@@ -47,9 +45,8 @@
             {"name": "ThermalFoundation:Ore", "metadata": 0, "weight": 50},
             {"name": "ThermalFoundation:Ore", "metadata": 1, "weight": 50}
         ],
-        "clusterSize": 6,
+        "clusterSize": 5,
         "numClusters": 4,
-        "chunkChance": 2,
         "maxHeight": 110,
         "minHeight": 90,
         "retrogen": "false",
@@ -69,9 +66,8 @@
             {"name": "TConstruct:SearedBrick", "metadata": 5, "weight": 40}
         ],
         "material": "minecraft:stone",
-        "clusterSize": 6,
+        "clusterSize": 5,
         "numClusters": 4,
-        "chunkChance": 2,
         "maxHeight": 90,
         "minHeight": 70,
         "retrogen": "false",
