@@ -12,7 +12,7 @@
         "retrogen": "false",
         "biomeRestriction": "blacklist",
         "biomes": [
-            {"type": "dictionary", "entry": "OCEAN"}.
+            {"type": "dictionary", "entry": "OCEAN"},
             {"type": "dictionary", "entry": "MAGICAL"}
         ],
         "dimensionRestriction": "whitelist",
