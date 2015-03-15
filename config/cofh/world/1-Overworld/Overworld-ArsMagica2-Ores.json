@@ -6,7 +6,7 @@
             "metadata": 0
         },
         "clusterSize": 7,
-        "numClusters": 7,
+        "numClusters": 10,
         "maxHeight": 30,
         "minHeight": 20,
         "retrogen": "false",
@@ -26,7 +26,7 @@
             "metadata": 1
         },
         "clusterSize": 7,
-        "numClusters": 7,
+        "numClusters": 10,
         "maxHeight": 20,
         "minHeight": 10,
         "retrogen": "false",
@@ -46,7 +46,7 @@
             "metadata": 2
         },
         "clusterSize": 7,
-        "numClusters": 7,
+        "numClusters": 10,
         "maxHeight": 10,
         "minHeight": 0,
         "retrogen": "false",
