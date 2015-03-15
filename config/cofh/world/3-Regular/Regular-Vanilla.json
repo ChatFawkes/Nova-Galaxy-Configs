@@ -190,7 +190,7 @@
         "block": "quartz_ore",
         "material": "minecraft:netherrack",
         "clusterSize": 13,
-        "numClusters": 16,
+        "numClusters": 20,
         "minHeight": 10,
         "maxHeight": 118,
         "retrogen": "false",
