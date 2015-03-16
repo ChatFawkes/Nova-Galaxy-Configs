@@ -56,13 +56,15 @@ val silktouchpick = <minecraft:diamond_pickaxe>.withTag({ench: [{id: 33 as short
 
 //Remove recipe for Ender Transmitter
 recipes.remove(endtransmitter);
-//Add tooltip for Ender Transmitter 
-endtransmitter.addTooltip(format.red("Disabled"));
+//Add tooltip for Ender Transmitter
+endtransmitter.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
+endtransmitter.addShiftTooltip(format.red("Disabled"));
 
 //Remove recipe for Ender Receiver
 recipes.remove(endreceiver);
-//Add tooltip for Ender Receiver 
-endreceiver.addTooltip(format.red("Disabled"));
+//Add tooltip for Ender Receiver
+endreceiver.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
+endreceiver.addShiftTooltip(format.red("Disabled"));
 
 //Change recipe for Ender Quarry to use a Nether Star
 recipes.remove(enderquarry);

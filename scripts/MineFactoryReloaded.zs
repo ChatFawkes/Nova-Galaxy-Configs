@@ -81,7 +81,7 @@ recipes.addShaped(chronotyper * 1, [[<ore:sheetPlastic>, <ore:gemEmerald>, <ore:
 recipes.addShaped(ejector * 8, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [null, <ThermalExpansion:material> * 1, null], [<ore:dustRedstone>, <ThermalExpansion:Frame:1> * 1, <ore:dustRedstone>]]);
 recipes.addShaped(itemRouter * 8, [[<ore:sheetPlastic>, <minecraft:chest:*> * 1, <ore:sheetPlastic>], [<ThermalExpansion:meter> * 1, <ThermalExpansion:Frame:1> * 1, <ThermalExpansion:meter> * 1], [<ore:sheetPlastic>, <ThermalExpansion:meter> * 1, <ore:sheetPlastic>]]);
 recipes.addShaped(liquidRouter * 8, [[<ore:sheetPlastic>, <MineFactoryReloaded:cable.plastic> * 1, <ore:sheetPlastic>], [<ThermalExpansion:meter> * 1, <ThermalExpansion:Frame:1> * 1, <ThermalExpansion:meter> * 1], [<ore:sheetPlastic>, <ThermalExpansion:meter> * 1, <ore:sheetPlastic>]]);
-recipes.addShaped(deepStorageUnit * 1, [[<ore:sheetPlastic>, <ThermalExpansion:Strongbox:3> * 1, <ore:sheetPlastic>], [<ThermalExpansion:Strongbox:3> * 1, <ThermalExpansion:Frame:8> * 1, <ThermalExpansion:Strongbox:3> * 1], [<ore:sheetPlastic>, <ThermalExpansion:Strongbox:3> * 1, <ore:sheetPlastic>]]);
+recipes.addShaped(deepStorageUnit * 1, [[<ore:sheetPlastic>, <ThermalExpansion:Strongbox:3> * 1, <ore:sheetPlastic>], [<ThermalExpansion:Strongbox:3> * 1, <ThermalExpansion:Frame:10> * 1, <ThermalExpansion:Strongbox:3> * 1], [<ore:sheetPlastic>, <ThermalExpansion:Strongbox:3> * 1, <ore:sheetPlastic>]]);
 recipes.addShaped(liquicrafter * 1, [[<ore:sheetPlastic>, <minecraft:crafting_table:*> * 1, <ore:sheetPlastic>], [<ThermalExpansion:Tank:1> * 1, <ThermalExpansion:Frame:2> * 1, <ThermalExpansion:Tank:1> * 1], [<minecraft:book> * 1, <ThermalExpansion:material> * 1, <minecraft:book> * 1]]);
 recipes.addShaped(lavaFabricator * 1, [[<ore:sheetPlastic>, <minecraft:obsidian:*> * 1, <ore:sheetPlastic>], [<minecraft:magma_cream> * 1, <ThermalExpansion:Frame:3> * 1, <minecraft:magma_cream> * 1], [<minecraft:blaze_rod> * 1, <ThermalExpansion:material:1> * 1, <minecraft:blaze_rod> * 1]]);
 recipes.addShaped(steamBoiler * 1, [[<ore:sheetPlastic>, <ore:sheetPlastic>, <ore:sheetPlastic>], [<ThermalExpansion:Tank:3> * 1, sludgeBoiler * 1, <ThermalExpansion:Tank:3> * 1], [<minecraft:nether_brick_stairs:*> * 1, <minecraft:nether_brick_stairs:*> * 1, <minecraft:nether_brick_stairs:*> * 1]]);
@@ -193,8 +193,8 @@ liquidRouter.addShiftTooltip(format.darkPurple("Requires ") + format.yellow("Har
 liquidRouter.addShiftTooltip(format.gold("Machine Frame"));
 
 deepStorageUnit.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
-deepStorageUnit.addShiftTooltip(format.darkPurple("Requires ") + format.darkGreen("Resonant"));
-deepStorageUnit.addShiftTooltip(format.gold("Machine Frame"));
+deepStorageUnit.addShiftTooltip(format.darkPurple("Requires materials"));
+deepStorageUnit.addShiftTooltip(format.darkPurple("from ") + format.yellow("Mars"));
 
 liquicrafter.addTooltip(format.darkAqua(format.italic("<Nova Shift>")));
 liquicrafter.addShiftTooltip(format.darkPurple("Requires ") + format.red("Reinforced"));
