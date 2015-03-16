@@ -173,7 +173,7 @@
         "template": "uniform",
         "block": [
             {"name": "minecraft:diamond_ore", "metadata": 0, "weight": 70},
-            {"name": "minecraft:emerald_ore", "metadata": 0, "weight": 30},
+            {"name": "minecraft:emerald_ore", "metadata": 0, "weight": 30}
         ],
         "material": "minecraft:stone",
         "clusterSize": 12,
