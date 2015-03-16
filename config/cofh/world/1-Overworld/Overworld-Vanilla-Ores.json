@@ -7,7 +7,6 @@
         "material": "stone",
         "clusterSize": 10,
         "numClusters": 15,
-        "chunkChance": 2,
         "maxHeight": 256,
         "minHeight": 48,
         "retrogen": "false",
