@@ -6,9 +6,9 @@
         ],
         "material": "stone",
         "clusterSize": 10,
-        "numClusters": 15,
-        "maxHeight": 256,
-        "minHeight": 48,
+        "numClusters": 20,
+        "maxHeight": 160,
+        "minHeight": 32,
         "retrogen": "false",
         "biomeRestriction": "blacklist",
         "biomes": [
