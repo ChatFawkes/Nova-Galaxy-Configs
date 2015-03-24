@@ -13,10 +13,19 @@ val skystone = <appliedenergistics2:tile.BlockSkyStone:1>;
 val purefluix = <appliedenergistics2:item.ItemMultiMaterial:12>;
 val deshplate = <GalacticraftMars:item.null:5>;
 val lunariumplate = <InterstellarOres:materialLunarium:1>;
+val skystoneraw = <appliedenergistics2:tile.BlockSkyStone>;
+val clouldinabottle = <chisel:cloudinabottle>;
+val deshore = <GalacticraftMars:tile.mars:2>;
 
 //==================
 //TWEAKS START BELOW
 //==================
+
+//Create recipe for Sky Stone
+recipes.addShaped(skystoneraw * 8,
+ [[deshore, deshore, deshore],
+  [deshore, clouldinabottle, deshore],
+  [deshore, deshore, deshore]]);
 
 //Create recipe for Calculation (Pure Certus) Press
 recipes.addShaped(calcpress,
