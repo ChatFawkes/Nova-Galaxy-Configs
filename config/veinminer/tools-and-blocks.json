@@ -137,6 +137,7 @@
       ],
       "blocklist": [
         "BigReactors:YelloriteOre/0",
+        "DraconicEvolution:draconiumOre/0",
         "Forestry:resources/0",
         "Forestry:resources/1",
         "Forestry:resources/2",
