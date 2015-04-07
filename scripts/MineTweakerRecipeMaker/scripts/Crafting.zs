@@ -12,13 +12,6 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<ModularArmour:helmetModular>);
-recipes.remove(<ModularArmour:bootsModular>);
-recipes.remove(<ModularArmour:leggingsModular>);
-recipes.remove(<ModularArmour:chestplateModular>);
-recipes.remove(<ModularArmour:itemBelt>);
-recipes.remove(<ModularArmour:itemPendant>);
-recipes.remove(<ModularArmour:itemRing>);
 recipes.remove(<gendustry:MutatronAdv>);
 recipes.remove(<gendustry:Mutatron>);
 recipes.remove(<minechem:tile.chemicalSynthesizer>);
