@@ -1,13 +1,11 @@
 //Define variables
 val basicsolar = <GalacticraftCore:tile.solar:0>;
 val advsolar = <GalacticraftCore:tile.solar:4>;
-val copper = <ThermalFoundation:material:64>;
-val tin = <ThermalFoundation:material:65>;
-val aluminum = <TConstruct:materials:11>;
-val steel = <Railcraft:ingot>;
-val bronze = <Forestry:ingotBronze>;
-val bronze2 = <TConstruct:materials:13>;
-val bronze3 = <ThermalFoundation:material:73>;
+val copper = <ore:ingotCopper>;
+val tin = <ore:ingotTin>;
+val aluminum = <ore:ingotAluminum>;
+val steel = <ore:ingotSteel>;
+val bronze = <ore:ingotBronze>;
 val iron = <minecraft:iron_ingot>;
 val metiron = <GalacticraftCore:item.meteoricIronIngot>;
 val lunarium = <InterstellarOres:materialLunarium:0>;
@@ -28,7 +26,6 @@ val tier2plate = <GalacticraftMars:item.null:3>;
 val tier3plate = <GalacticraftMars:item.itemBasicAsteroids>;
 val basicwafer = <GalacticraftCore:item.basicItem:13>;
 val advwafer = <GalacticraftCore:item.basicItem:14>;
-val redstone = <minecraft:redstone>;
 
 //==================
 //TWEAKS START BELOW
@@ -53,26 +50,22 @@ recipes.remove(<GalacticraftCore:tile.machine2:4>);
 mods.nei.NEI.hide(<GalacticraftCore:tile.machine2:4>);
 
 //Add Rolling Machine recipes for Compressed Metals
-mods.railcraft.Rolling.addShaped(aluminumplate, [[aluminum, aluminum]]);                                        #Compressed Aluminum
-mods.railcraft.Rolling.addShaped(bronzeplate, [[bronze, bronze]]);                                              #Compressed Bronze
-mods.railcraft.Rolling.addShaped(bronzeplate, [[bronze2, bronze2]]);                                            #Compressed Bronze
-mods.railcraft.Rolling.addShaped(bronzeplate, [[bronze3, bronze3]]);                                            #Compressed Bronze
-mods.railcraft.Rolling.addShaped(metironplate, [[metiron, metiron]]);                                           #Compressed Meteoric Iron
-mods.railcraft.Rolling.addShaped(lunariumplate, [[lunarium, lunarium]]);                                        #Compressed Lunarium
-mods.railcraft.Rolling.addShaped(deshplate, [[desh, desh]]);                                                    #Compressed Desh
-mods.railcraft.Rolling.addShaped(titaniumplate, [[titanium, titanium]]);                                        #Compressed Titanium
-mods.railcraft.Rolling.addShaped(tier1plate,                                                                    #Heavy-Duty Plate Tier 1
-[[steelplate, aluminumplate, bronzeplate],
- [steelplate, aluminumplate, bronzeplate]]);
-mods.railcraft.Rolling.addShaped(tier2plate, [[tier1plate, metironplate, lunariumplate]]);                      #Heavy-Duty Plate Tier 2
-mods.railcraft.Rolling.addShaped(tier3plate, [[tier2plate, deshplate, deshplate]]);                             #Heavy-Duty Plate Tier 3
+mods.railcraft.Rolling.addShaped(ironplate, [[iron, iron]]);                                                    # Compressed Iron
+mods.railcraft.Rolling.addShaped(copperplate, [[copper, copper]]);                                              # Compressed Copper
+mods.railcraft.Rolling.addShaped(tinplate, [[tin, tin]]);                                                       # Compressed Tin
+mods.railcraft.Rolling.addShaped(aluminumplate, [[aluminum, aluminum]]);                                        # Compressed Aluminum
+mods.railcraft.Rolling.addShaped(bronzeplate, [[bronze, bronze]]);                                              # Compressed Bronze
+mods.railcraft.Rolling.addShaped(steelplate, [[steel, steel]]);                                                 # Compressed Steel
+mods.railcraft.Rolling.addShaped(metironplate, [[metiron, metiron]]);                                           # Compressed Meteoric Iron
+mods.railcraft.Rolling.addShaped(lunariumplate, [[lunarium, lunarium]]);                                        # Compressed Lunarium
+mods.railcraft.Rolling.addShaped(deshplate, [[desh, desh]]);                                                    # Compressed Desh
+mods.railcraft.Rolling.addShaped(titaniumplate, [[titanium, titanium]]);                                        # Compressed Titanium
+mods.railcraft.Rolling.addShaped(tier1plate, 
+ [[steelplate, aluminumplate, bronzeplate],
+  [steelplate, aluminumplate, bronzeplate]]);                                                                   # Heavy-Duty Plate Tier 1
+mods.railcraft.Rolling.addShaped(tier2plate, [[tier1plate, metironplate, lunariumplate]]);                      # Heavy-Duty Plate Tier 2
+mods.railcraft.Rolling.addShaped(tier3plate, [[tier2plate, deshplate, deshplate]]);                             # Heavy-Duty Plate Tier 3
 
-//Add shapeless Railcraft Plates -> Compressed Metals (Cheaper than original amount)
-recipes.addShapeless(ironplate, [<Railcraft:part.plate>, <Railcraft:part.plate>]);                              #Compressed Iron
-recipes.addShapeless(steelplate, [<Railcraft:part.plate:1>, <Railcraft:part.plate:1>]);                         #Compressed Steel
-recipes.addShapeless(tinplate, [<Railcraft:part.plate:2>, <Railcraft:part.plate:2>]);                           #Compressed Tin
-recipes.addShapeless(copperplate, [<Railcraft:part.plate:3>, <Railcraft:part.plate:3>]);                        #Compressed Copper
-
-//Add Metallurgic Infuser recipes for Wafers
-mods.mekanism.Infuser.addRecipe("DIAMOND", 20, redstone * 2, basicwafer);                                        #Basic Wafer (uses Diamond)
-mods.mekanism.Infuser.addRecipe("OBSIDIAN", 20, redstone * 2, advwafer);                                         #Advanced Wafer (uses Obsidian)
+//Add recipes for Galacticraft Wafers
+recipes.addShapeless(<GalacticraftCore:item.basicItem:13> * 2, [<minecraft:diamond>, <minecraft:redstone_block>, <minecraft:redstone_torch>, <ore:itemSilicon>, <ore:itemSilicon>]);
+recipes.addShapeless(<GalacticraftCore:item.basicItem:14>, [<minecraft:diamond>, <minecraft:redstone_block>, <minecraft:repeater>, <ore:itemSilicon>, <ore:itemSilicon>]);
